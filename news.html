@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Новости</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20221207234544" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+	<link rel="manifest" href="img/favicon/site.webmanifest" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="preloader-inner">
+			<div class="preloader-icon">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<aside class="sidebar">
+			<button class="sidebar__close icon-menu js-toggle-sidebar">
+				<svg width="20px" height="20px" viewBox="0 0 24 24">
+					<path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+				</svg>
+			</button>
+			<div class="sidebar__wrap" data-simplebar>
+				<a href="index.html" class="sidebar__logo">
+					<img src="img/icons/logo-1.png" alt="" />
+				</a>
+				<h5 class="sidebar__title">Выберите направление<br> для отдыха:</h5>
+				<nav class="sidebar__nav ">
+					<h6 class="sidebar__nav-title">отдых на воде</h6>
+					<ul class="sidebar__list">
+						<li class="sidebar__list-item">
+							<a href="" class="sidebar__link">речные круизы</a>
+							<a href="" class="sidebar__link">речные прогулки из казани</a>
+							<a href="" class="sidebar__link">морские круизы</a>
+							<a href="" class="sidebar__link">аренда флота</a>
+						</li>
+					</ul>
+					<h6 class="sidebar__nav-title">Казань и все что рядом</h6>
+					<ul class="sidebar__list">
+						<li class="sidebar__list-item">
+							<a href="" class="sidebar__link">экскурсии по казани</a>
+							<a href="" class="sidebar__link">сборные туры с проживанием</a>
+							<a href="" class="sidebar__link">организованные группы</a>
+							<a href="" class="sidebar__link">музеи и Интерактивы</a>
+							<a href="" class="sidebar__link">трансферы</a>
+							<a href="" class="sidebar__link">vip туры в казань</a>
+						</li>
+					</ul>
+					<h6 class="sidebar__nav-title">не далкео от дома</h6>
+					<ul class="sidebar__list">
+						<li class="sidebar__list-item">
+							<a href="" class="sidebar__link">туры по россии</a>
+							<a href="" class="sidebar__link">санатории и базы отдыха</a>
+							<a href="" class="sidebar__link">для детей и школьников</a>
+							<a href="" class="sidebar__link">автобусные туры</a>
+							<a href="" class="sidebar__link">туры на поездах</a>
+							<a href="" class="sidebar__link">туры в Питер и москву</a>
+						</li>
+					</ul>
+
+					<h6 class="sidebar__nav-title">зарубеж и пляжи</h6>
+					<ul class="sidebar__list">
+						<li class="sidebar__list-item">
+							<a href="" class="sidebar__link">сборные туры</a>
+							<a href="" class="sidebar__link">индивидуальные туры</a>
+							<a href="" class="sidebar__link">музеи и Интерактивы</a>
+							<a href="" class="sidebar__link _other">другое</a>
+						</li>
+					</ul>
+
+				</nav>
+			</div>
+		</aside>
+
+		<div class="sidebar__overlay"></div>
+
+		<main class="page">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__wrappers">
+						<a href="index.html" class="header__logo">
+							<img src="img/icons/logo-1.png" alt="" />
+						</a>
+						<div class="header__menu-wrap">
+							<button type="button" class="icon-menu js-toggle-sidebar">
+								<svg width="20px" height="20px" viewBox="0 0 24 24">
+									<path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+								</svg>
+							</button>
+						</div>
+						<nav class="header__nav">
+							<ul class="header__nav-list">
+								<li class="header__nav-item">
+									<a href="about.html" class="header__nav-link"> О компании </a>
+								</li>
+								<li class="header__nav-item">
+									<a href="news.html" class="header__nav-link"> Новости </a>
+								</li>
+								<li class="header__nav-item">
+									<a href="contacts.html" class="header__nav-link"> Контакты </a>
+								</li>
+								<li class="header__nav-item">
+									<a href="" class="header__nav-link">
+										Оплата и ваучер
+										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+											<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+										</svg>
+									</a>
+									<ul class="header__nav-submenu">
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link"> Купить билеты </a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link"> Договоры </a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link">
+												Оплатить картой
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="header__nav-item">
+									<a href="" class="header__nav-link">
+										Услуги
+										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+											<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+										</svg>
+									</a>
+									<ul class="header__nav-submenu">
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link">
+												Визы и приглашения
+											</a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link">
+												Загран паспорта
+											</a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link">
+												Рассмотрение обращений
+											</a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link">
+												Мед. деятельность
+											</a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link"> Страхование </a>
+										</li>
+										<li class="header__nav-submenu-item">
+											<a href="" class="header__nav-submenu-link">
+												Пункт отправлений DHL
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="header__nav-item">
+									<a href="" class="header__nav-link"> Блог </a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__contacts">
+							<div class="header__nav-item">
+								<a href="tel:+78244160186" class="header__nav-link">
+									+7 824 416-01-86
+								</a>
+							</div>
+							<div class="header__dropdown">
+								<button type="button" class="header__dropdown-toggle">
+									<span>Наши офисы</span>
+								</button>
+								<div class="header__dropdown-menu">
+									<h5>Центральный офис:</h5>
+									<ul class="header__dropdown-menu-list">
+										<li class="header__dropdown-menu-item">
+											<div class="header__dropdown-menu-adress">
+												<p>Пушкина, 10</p>
+											</div>
+											<div class="header__dropdown-menu-contacts">
+												<a href="tel:+73473439749">+73473439749</a>
+												<a href="mailto:Info@sputnik-germes.ru">Info@sputnik-germes.ru</a>
+											</div>
+										</li>
+									</ul>
+									<h5>Дополнительный офис</h5>
+									<ul class="header__dropdown-menu-list">
+										<li class="header__dropdown-menu-item">
+											<div class="header__dropdown-menu-adress">
+												<p>Пушкина, 10</p>
+											</div>
+											<div class="header__dropdown-menu-contacts">
+												<a href="tel:+73473439749">+73473439749</a>
+												<a href="mailto:Info@sputnik-germes.ru">Info@sputnik-germes.ru</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<a href="" class="btn__outline-telegram">
+								<svg width="15" height="15" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_1_18)">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M7.97542 4.10835C7.97542 6.25797 6.23276 8.00063 4.08314 8.00063C1.93352 8.00063 0.190857 6.25797 0.190857 4.10835C0.190857 1.95873 1.93352 0.216064 4.08314 0.216064C6.23276 0.216064 7.97542 1.95873 7.97542 4.10835ZM4.22295 3.08971C3.84346 3.247 3.08697 3.57406 1.95349 4.0684C1.76874 4.1408 1.67387 4.21321 1.66388 4.28311C1.6489 4.40046 1.7962 4.44789 1.99843 4.5128C2.0259 4.52029 2.05336 4.53028 2.08332 4.54027C2.28305 4.60518 2.55019 4.68008 2.68751 4.68258C2.81234 4.68507 2.95465 4.63264 3.10944 4.52779C4.17052 3.81125 4.71729 3.44923 4.75224 3.44174C4.77721 3.43675 4.80967 3.42926 4.83214 3.44923C4.8546 3.4692 4.85211 3.50665 4.84961 3.51914C4.83463 3.58155 4.25291 4.12333 3.95082 4.40295C3.85594 4.49034 3.79103 4.55275 3.77605 4.56523C3.74609 4.59769 3.71363 4.62765 3.68367 4.65511C3.49892 4.83238 3.36161 4.9672 3.69116 5.1844C3.85095 5.28926 3.97828 5.37665 4.10311 5.46153C4.24292 5.55641 4.38024 5.64878 4.5575 5.76613C4.60244 5.79608 4.64738 5.82605 4.68983 5.856C4.85211 5.97085 4.99691 6.07321 5.17418 6.05823C5.27904 6.04825 5.38639 5.95088 5.44132 5.65877C5.57114 4.96969 5.82331 3.47669 5.88323 2.86002C5.88822 2.80509 5.88323 2.73768 5.87574 2.70772C5.87074 2.67776 5.86076 2.63532 5.82081 2.60287C5.77337 2.56542 5.70097 2.55793 5.67101 2.55793C5.52371 2.56042 5.29901 2.63782 4.21796 3.08722L4.22295 3.08971Z" fill="#4B4B4B" />
+									</g>
+									<defs>
+										<clipPath id="clip0_1_18">
+											<rect width="7.78456" height="7.78457" fill="white" transform="translate(0.190857 0.216064)" />
+										</clipPath>
+									</defs>
+								</svg>
+								<span>Telegram</span>
+							</a>
+							<button type="button" class="btn__callback">Напишите нам</button>
+						</div>
+						<button type="button" class="header__icon-menu js-toggle-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="about.html" class="menu__link">О компании</a></li>
+								<li class="menu__item"><a href="news.html" class="menu__link">Новости</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Блог</a></li>
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title menu__link">Оплата и ваучер</button>
+										<div class="spollers__body">
+											<li><a href="">Купить билеты </a></li>
+											<li><a href="">Договоры</a></li>
+											<li><a href="">Оплатить картой</a></li>
+										</div>
+									</div>
+								</div>
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title menu__link">Услуги</button>
+										<div class="spollers__body">
+											<li><a href="">Визы и приглашения</a></li>
+											<li><a href="">Загран паспорта</a></li>
+											<li><a href="">Рассмотрение обращений</a></li>
+											<li><a href="">Мед. деятельность</a></li>
+											<li><a href="">Страхование </a></li>
+											<li><a href="">Пункт отправлений DHL</a></li>
+										</div>
+									</div>
+								</div>
+							</ul>
+							<div class="menu__contacts">
+								<button type="button" class="btn__callback">Напишите нам</button>
+							</div>
+
+						</nav>
+					</div>
+				</div>
+			</header>
+			<nav class="breadcrumb">
+				<div class="breadcrumb__container">
+					<ul class="breadcrumb__list">
+						<li class="breadcrumb__item"><a href="#">Главная</a></li>
+						<li class="breadcrumb__item active">Новости</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="news">
+				<div class="news__container">
+					<h1 class="main-title">Новости</h1>
+					<div data-tabs class="tabs">
+						<nav data-tabs-titles class="news__navigation">
+							<button type="button" class="news__title _tab-active">Новости</button>
+							<button type="button" class="news__title">Статьи</button>
+							<button type="button" class="news__title">О нас</button>
+						</nav>
+						<div data-tabs-body class="news__content">
+							<div class="news__body">
+								<div class="news__grid">
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/1.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">Морские круизы 2023 год</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/2.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">Как получить визу в Европу</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="" class="news__item-link">
+											<img src="img/news/3.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">В какие страны полетим в 2023 году</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/1.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">Морские круизы 2023 год</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/2.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">Как получить визу в Европу</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/3.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">В какие страны полетим в 2023 году</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="" class="news__item-link">
+											<img src="img/news/1.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">Морские круизы 2023 год</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/2.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">Как получить визу в Европу</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="news__item">
+										<a href="article.html" class="news__item-link">
+											<img src="img/news/3.png" alt="" />
+											<div class="news__item-wrap">
+												<h2 class="news__item-title">В какие страны полетим в 2023 году</h2>
+												<p class="news__item-text">
+													Как попасть и что для этого нужно
+												</p>
+											</div>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="news__body">Содержимое второго таба</div>
+							<div class="news__body">Содержимое третьего таба</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__wrappers">
+						<div class="footer__top">
+							<div class="footer__search">
+								<svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M14.0095 12.9292C15.4265 11.6838 16.3193 9.89971 16.3193 7.8498C16.3193 4.02527 13.2117 1.12588 9.39011 0.924868C5.35063 0.712394 1.69104 3.8072 1.69104 7.8498C1.69104 11.8924 5.35063 14.9872 9.39011 14.7747C11.1634 14.6815 12.7829 14.0072 14.0095 12.9292ZM14.0095 12.9292L18.629 17.8525" stroke="#B6B6B6" stroke-width="1.4323" />
+								</svg>
+								<input autocomplete="off" type="text" placeholder="Введите куда вы хотите поехать" class="footer__search-input" />
+							</div>
+							<div class="footer__social">
+								<a href="" class="footer__social-item">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+										<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+									</svg>
+								</a>
+								<a href="" class="footer__social-item">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+										<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+									</svg>
+								</a>
+								<a href="" class="footer__social-item">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+										<path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+									</svg>
+								</a>
+								<a href="" class="footer__social-item">
+									<svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+										<path d="M17.802 12.298s1.617 1.597 2.017 2.336a.127.127 0 0 1 .018.035c.163.273.203.487.123.645-.135.261-.592.392-.747.403h-2.858c-.199 0-.613-.052-1.117-.4-.385-.269-.768-.712-1.139-1.145-.554-.643-1.033-1.201-1.518-1.201a.548.548 0 0 0-.18.03c-.367.116-.833.639-.833 2.032 0 .436-.344.684-.585.684H9.674c-.446 0-2.768-.156-4.827-2.327C2.324 10.732.058 5.4.036 5.353c-.141-.345.155-.533.475-.533h2.886c.387 0 .513.234.601.444.102.241.48 1.205 1.1 2.288 1.004 1.762 1.621 2.479 2.114 2.479a.527.527 0 0 0 .264-.07c.644-.354.524-2.654.494-3.128 0-.092-.001-1.027-.331-1.479-.236-.324-.638-.45-.881-.496.065-.094.203-.238.38-.323.441-.22 1.238-.252 2.029-.252h.439c.858.012 1.08.067 1.392.146.628.15.64.557.585 1.943-.016.396-.033.842-.033 1.367 0 .112-.005.237-.005.364-.019.711-.044 1.512.458 1.841a.41.41 0 0 0 .217.062c.174 0 .695 0 2.108-2.425.62-1.071 1.1-2.334 1.133-2.429.028-.053.112-.202.214-.262a.479.479 0 0 1 .236-.056h3.395c.37 0 .621.056.67.196.082.227-.016.92-1.566 3.016-.261.349-.49.651-.691.915-1.405 1.844-1.405 1.937.083 3.337z" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="footer__row">
+							<div class="footer__col">
+								<h4 class="footer__title">Отдых на воде</h4>
+								<ul class="footer__list">
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Речные круизы </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Речные прогулки из Казани </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Морские круизы </a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col">
+								<h4 class="footer__title">Казань и окрестности</h4>
+								<ul class="footer__list">
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Сборные туры </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Индивидуальные туры </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Музеи и интерактивы </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Групповые </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Трансфер </a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col">
+								<h4 class="footer__title">Не далеко от дома</h4>
+								<ul class="footer__list">
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Туры по России </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Санатории и базы отдыха </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Для детей и школьников </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Автобусные туры </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Туры на поездах </a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col">
+								<h4 class="footer__title">Зарубеж и пляжи</h4>
+								<ul class="footer__list">
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Морские кризы </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Зарубежные туры </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Морские кризы </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Зарубежные туры </a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col">
+								<h4 class="footer__title">О компании</h4>
+								<ul class="footer__list">
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Персонал </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Частые вопросы </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Оплата </a>
+									</li>
+									<li class="footer__list-item">
+										<a href="" class="footer__link"> Возврат товара </a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col">
+								<h4 class="footer__title">Контакты</h4>
+								<ul class="footer__list">
+									<li class="footer__list-contacts">
+										<i class="footer__icon-phone"></i>
+										<div class="footer__list-contacts-wrap">
+											<a href="tel:+78436418866">
+												8 843 641-88-66
+											</a>
+											<span>Ежедневно с 10:00 до 20:00</span>
+										</div>
+									</li>
+									<li class="footer__list-contacts">
+										<i class="footer__icon-adress"></i>
+										<div class="footer__list-contacts-wrap">
+											<a href="" target="_blank">
+												Казань, Пушкина 10
+											</a>
+											<span>3 мин от станции метро Тукаевская</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__bottom">
+							<div class="footer__copyright">
+								© 2022 Спутник-Гермес Казань - речные круизы, речные прогулки из Казани, туры по России, зарубежные туры
+							</div>
+							<a href="">Политика конфиденциальности</a>
+							<a href="">Карта сайта</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</div>
+	<div class="control-fly">
+		<div class="control-fly__wrapper">
+			<a href="" class="btn__blue-light">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+					<path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+				</svg>
+				<span>Подбор тура</span>
+			</a>
+			<a href="" class="btn__outline-telegram">
+				<svg viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0_1_18)">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M7.97542 4.10835C7.97542 6.25797 6.23276 8.00063 4.08314 8.00063C1.93352 8.00063 0.190857 6.25797 0.190857 4.10835C0.190857 1.95873 1.93352 0.216064 4.08314 0.216064C6.23276 0.216064 7.97542 1.95873 7.97542 4.10835ZM4.22295 3.08971C3.84346 3.247 3.08697 3.57406 1.95349 4.0684C1.76874 4.1408 1.67387 4.21321 1.66388 4.28311C1.6489 4.40046 1.7962 4.44789 1.99843 4.5128C2.0259 4.52029 2.05336 4.53028 2.08332 4.54027C2.28305 4.60518 2.55019 4.68008 2.68751 4.68258C2.81234 4.68507 2.95465 4.63264 3.10944 4.52779C4.17052 3.81125 4.71729 3.44923 4.75224 3.44174C4.77721 3.43675 4.80967 3.42926 4.83214 3.44923C4.8546 3.4692 4.85211 3.50665 4.84961 3.51914C4.83463 3.58155 4.25291 4.12333 3.95082 4.40295C3.85594 4.49034 3.79103 4.55275 3.77605 4.56523C3.74609 4.59769 3.71363 4.62765 3.68367 4.65511C3.49892 4.83238 3.36161 4.9672 3.69116 5.1844C3.85095 5.28926 3.97828 5.37665 4.10311 5.46153C4.24292 5.55641 4.38024 5.64878 4.5575 5.76613C4.60244 5.79608 4.64738 5.82605 4.68983 5.856C4.85211 5.97085 4.99691 6.07321 5.17418 6.05823C5.27904 6.04825 5.38639 5.95088 5.44132 5.65877C5.57114 4.96969 5.82331 3.47669 5.88323 2.86002C5.88822 2.80509 5.88323 2.73768 5.87574 2.70772C5.87074 2.67776 5.86076 2.63532 5.82081 2.60287C5.77337 2.56542 5.70097 2.55793 5.67101 2.55793C5.52371 2.56042 5.29901 2.63782 4.21796 3.08722L4.22295 3.08971Z" fill="#4B4B4B"></path>
+					</g>
+					<defs>
+						<clipPath id="clip0_1_18">
+							<rect width="7.78456" height="7.78457" fill="white" transform="translate(0.190857 0.216064)"></rect>
+						</clipPath>
+					</defs>
+				</svg>
+				<span>Telegram</span>
+			</a>
+			<a href="" class="btn__orange">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+					<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+				</svg>
+				<span>Выбрать город</span>
+			</a>
+
+		</div>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=562bae56-7532-4afb-bb3e-e10bfb191f68&lang=ru_RU&_v=20221207234544" type="text/javascript"></script>
+	<script src="js/app.min.js?_v=20221207234544"></script>
+</body>
+
+</html>
